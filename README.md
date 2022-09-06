@@ -1,7 +1,7 @@
 # Sigmoid-neuron-for-classification-problem
 Gender classification using Sigmoid neuron
 
-#IMPORTING lIBRARIES
+# IMPORTING LIBRARIES
 ```python
 import tensorflow as tf
 from keras.models import Sequential
@@ -12,12 +12,12 @@ import matplotlib as plt
 import numpy as np
 ```python
 
-#Loading Dataset
+# Loading Dataset
 ```python
 data = pd.read_csv('/content/gender_classification_v7.csv', delimiter=',')
 ```python
 
-#Creating correlation Graph
+# Creating correlation Graph
 ```python
 corr = data.corr()
 sns.heatmap(corr, 
